@@ -17,7 +17,7 @@ const App = () => {
           </Routes>
         
       </BrowserRouter>
-      // <h1>hi</h1>
+   
      
 
   );
