@@ -1,11 +1,26 @@
+
+import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from './components/about/about';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <h1>my portafolio</h1>
-    </div>
+    
+      <BrowserRouter>
+
+        
+          <Routes>
+            
+            <Route path='/About' element={<About/>} />
+
+
+          </Routes>
+        
+      </BrowserRouter>
+     
+
   );
-}
+};
 
 export default App;
