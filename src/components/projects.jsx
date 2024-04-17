@@ -1,5 +1,5 @@
 import uniqid from 'uniqid'
-import { projects } from '../portfolio'
+import { projects } from '../portafolio';
 // import ProjectContainer from '../ProjectContainer/ProjectContainer'
 // import './Projects.css'
 
