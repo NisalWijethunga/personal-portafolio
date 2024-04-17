@@ -1,3 +1,4 @@
+import React from 'react';
 // import GitHubIcon from '@material-ui/icons/GitHub'
 import {about} from "../../portafolio";
 import './About.css'
@@ -55,4 +56,4 @@ const About = () => {
     );
   }
   
-  export default About
+  export default About;
