@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import Projects from './components/Projects';
+import Projects from './components/projects';
 import './App.css';
 
 const App = () => {
