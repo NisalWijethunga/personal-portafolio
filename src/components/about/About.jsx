@@ -38,7 +38,7 @@ const About = () => {
               )}
   
               {social.linkedin && (
-                <a
+             <a
                   href={social.linkedin}
                   aria-label='linkedin'
                   className='link link--icon'
