@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './About';
+import Projects from './projects';
 
 
 const Home = () => (
@@ -8,6 +9,7 @@ const Home = () => (
            
             <main>
                 <About />
+                <Projects />
             </main>
             
         </div>
