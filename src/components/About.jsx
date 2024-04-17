@@ -1,6 +1,6 @@
 import React from 'react';
 // import GitHubIcon from '@material-ui/icons/GitHub'
-import {about} from "../../portafolio";
+import { about } from '../portafolio';
 // import './About1.css'
 
 const About = () => {
