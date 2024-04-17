@@ -3,7 +3,7 @@
 import {about} from "../../portafolio";
 
 const About = () => {
-    const { name, role, description, resume, social } = About
+    const { name, role, description, resume, social } = about
     
   
     return (
