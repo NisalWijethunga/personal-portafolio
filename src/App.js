@@ -1,10 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
+import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import './App.css';
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
           <Route path='/About' element={<About/>} />
           <Route path='/Projects' element={<Projects/>} />
           <Route path='/Skills' element={<Skills/>} />
+          <Route path='/Header' element={<Header/>} />
 
 
           </Routes>
