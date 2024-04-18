@@ -1,3 +1,4 @@
+const header = {}
 const about = {
     name: 'Nisal Wijethunga',
     role: 'Software Developer',
@@ -52,4 +53,4 @@ const about = {
     'MYSQL',
     'Firebase',
   ]
-  export {about, projects, skills}
+  export {about, projects, skills, header}
