@@ -1,4 +1,4 @@
-// import './Footer.css'
+import './Css/Footer.css'
 
 const Footer = () => (
   <footer className='footer'>

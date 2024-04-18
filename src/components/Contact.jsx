@@ -1,6 +1,6 @@
 import { Container,Row,Col } from 'react-bootstrap';
 import React, { useState } from 'react';
-// import './Contact.css'
+import './Css/Contact.css'
 import { contactConfig } from './Content_options';
 
 const Contact = () => {
