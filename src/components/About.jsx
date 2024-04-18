@@ -1,7 +1,8 @@
 import React from 'react';
-// import GitHubIcon from '@material-ui/icons/GitHub'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@material-ui/icons/GitHub'
 import { about } from '../portafolio';
-// import './About1.css'
+import './Css/About.css'
 
 const About = () => {
     const { name, role, description, resume, social } = about
@@ -35,7 +36,7 @@ const About = () => {
                   aria-label='github'
                   className='link link--icon'
                 >
-                  {/* <GitHubIcon /> */}
+                  <GitHubIcon />
                 </a>
               )}
   
@@ -45,7 +46,7 @@ const About = () => {
                   aria-label='linkedin'
                   className='link link--icon'
                 >
-                  {/* <LinkedInIcon />  */}
+                  <LinkedInIcon /> 
                 </a>
               )}
             </>
