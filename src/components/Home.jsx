@@ -4,6 +4,7 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Header from './Header';
 import Contact from './Contact';
+import Footer from './Footer';
 
 
 const Home = () => (
@@ -17,7 +18,7 @@ const Home = () => (
                 <Skills />
                 <Contact />
             </main>
-            
+            <Footer />
         </div>
   
 );
