@@ -1,8 +1,7 @@
 import uniqid from 'uniqid'
 import { projects } from '../portafolio';
-import ProjectContainer from './ProjectContainer';
-// import ProjectContainer from '../ProjectContainer/ProjectContainer'
-// import './Projects.css'
+import ProjectContainer from './ProjectContainer'
+import './Css/Projects.css'
 
 const Projects = () => {
   if (!projects.length) return null
