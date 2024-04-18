@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ThemeContext } from './contexts/theme';
+import { ThemeContext } from './components/contexts/Theme'; 
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
