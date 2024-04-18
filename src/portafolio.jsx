@@ -53,4 +53,11 @@ const about = {
     'MYSQL',
     'Firebase',
   ]
-  export {about, projects, skills, header}
+  const contact = {
+  
+    email: 'nisalwijethunge@gmail.com',
+    FormData
+    
+  
+  }
+  export {about, projects, skills, header, contact}

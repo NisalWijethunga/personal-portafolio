@@ -4,7 +4,7 @@ import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from './components/contexts/Theme'
-import { projects, skills, contact } from '../portafolio'
+import { projects, skills, contact } from '../portafolio' 
 // import './Navbar.css'
 
 const Navbar = () => {

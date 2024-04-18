@@ -1,8 +1,7 @@
 import { Container,Row,Col } from 'react-bootstrap';
 import React, { useState } from 'react';
-import './Contact.css'
-import { contactConfig } from './content_options';
-
+// import './Contact.css'
+import { contactConfig } from '../content_options';
 
 const Contact = () => {
   const [userData,setUserData] = useState(
