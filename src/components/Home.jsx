@@ -1,6 +1,6 @@
 import React from 'react';
 import About from './About';
-import Projects from './projects';
+import Projects from './Projects';
 
 
 const Home = () => (
