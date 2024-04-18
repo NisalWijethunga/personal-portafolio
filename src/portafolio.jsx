@@ -37,4 +37,19 @@ const about = {
       livePreview: 'https://github.com/NisalWijethunga',
     },
   ]
-  export {about, projects}
+  const skills = [
+  
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'JAVA',
+    'Flutter',
+    'Material UI',
+    'Git',
+    'PHP',
+    'MYSQL',
+    'Firebase',
+  ]
+  export {about, projects, skills}

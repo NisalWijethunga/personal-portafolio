@@ -1,5 +1,5 @@
 import uniqid from 'uniqid'
-import { skills } from '../portfolio'
+import { skills } from '../portafolio' 
 // import './Skills.css'
 
 const Skills = () => {
@@ -18,3 +18,4 @@ const Skills = () => {
     </section>
   )
 }
+export default Skills
