@@ -1,6 +1,6 @@
 import uniqid from 'uniqid'
 import { skills } from '../portafolio' 
-// import './Skills.css'
+import './Css/Skills.css'
 
 const Skills = () => {
   if (!skills.length) return null
