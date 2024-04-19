@@ -1,0 +1,78 @@
+/* Sihn UP Form.css*/
+*{
+    margin: 0;
+}
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #555;
+
+}
+.signup-form {
+    background: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    
+}
+.signup-form h2 {
+    color: aqua;
+
+}
+.signup-form label {
+    display: block;
+    margin: 10px 0;
+    background-color:black ;
+
+}
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid  black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #555;
+
+
+}
+.signup-form button {
+    background-color: #2a2f4c;
+    color: aqua;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.signup-form button:hover {
+    border-color: black;
+    color: azure;
+
+
+}
+.login-lebel{
+    background-color:black;
+    padding-top: 10px;
+}
+.header-lebel{
+    background-color: aliceblue;
+    color: #fff;
+    padding-top: 20px;
+}
+.login{
+    color: aqua;
+}
+.header-lebel1{
+    background-color: aliceblue;
+    color: #fff;
+    padding-top: 20px;
+}
