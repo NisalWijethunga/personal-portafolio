@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Container } from "@material-ui/core";
+import { GoTypography, GoContainer } from "react-icons/go";
 import { makeStyles } from "@material-ui/core/styles";
 import { FirstName, LastName } from "../../utils/getName";
 
@@ -26,16 +26,16 @@ export const Content = () => {
   const classes = useStyles();
 
   return (
-    <Container component="main" className={classes.main} maxWidth="md">
+    <GoContainer component="main" className={classes.main} maxWidth="md">
       <div className={classes.heading}>
-        <Typography variant="h5" component="h2">
+        <GoTypography variant="h5" component="h2">
             <TextDecrypt text={`${FirstName} ${LastName}`} />
-        </Typography>
-        <Typography variant="h1" component="h1" className={classes.jobs}>
+        </GoTypography>
+        <GoTypography variant="h1" component="h1" className={classes.jobs}>
             <TextDecrypt text={`${Resume.basics.job1} + `} />
             <TextDecrypt text={`${Resume.basics.job2}`} />
-        </Typography>
+        </GoTypography>
       </div>
-    </Container>
+    </GoContainer>
   );
 };

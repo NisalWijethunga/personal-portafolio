@@ -1,6 +1,6 @@
 import React from 'react';
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import GitHubIcon from '@material-ui/icons/GitHub'
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { about } from '../portafolio';
 import './Css/About.css'
 
@@ -36,7 +36,7 @@ const About = () => {
                   aria-label='github'
                   className='link link--icon'
                 >
-                  <GitHubIcon />
+                  <FaGithub />
                 </a>
               )}
   
@@ -46,7 +46,7 @@ const About = () => {
                   aria-label='linkedin'
                   className='link link--icon'
                 >
-                  <LinkedInIcon /> 
+                  <FaLinkedinIn /> 
                 </a>
               )}
             </>
