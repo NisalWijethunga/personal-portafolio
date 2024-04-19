@@ -11,6 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SignUpForm from './components/SignUpForm';
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext);
@@ -21,6 +22,7 @@ const App = () => {
         
           <Routes>
           <Route path='/' element={<Home/> } />
+          <Route path='/SignUpForm' element={<SignUpForm/> } />
           <Route path='/portafolio' element={<Home/> } />
           <Route path='/About' element={<About/>} />
           <Route path='/Projects' element={<Projects/>} />
